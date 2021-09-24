@@ -27,4 +27,5 @@ app.get("/users/:name", async (req, res) => {
   }
 });
 
+// listening port
 app.listen(port, () => console.log(`Listening to ${port}`));
